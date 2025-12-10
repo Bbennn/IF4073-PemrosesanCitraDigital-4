@@ -1,3 +1,4 @@
+import datetime
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 from PIL import Image, ImageTk
@@ -640,6 +641,7 @@ class ImageProcessingGUI:
         output_path = filedialog.asksaveasfilename(
             title="Save Output Video",
             initialdir=self.default_video_dir,
+            initialfile="output_" + datetime.datetime.now().strftime("%Y%m%d_%H%M%S"),
             defaultextension=".mp4",
             filetypes=[("MP4 files", "*.mp4")]
         )
