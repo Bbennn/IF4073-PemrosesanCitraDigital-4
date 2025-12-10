@@ -27,8 +27,8 @@ Jalankan command yang sesuai dengan OS:
 pip install -r requirement.txt --no-cache-dir
 ```
 
-##### 4\. Jalankan Program
-Jika belum ada model fruit recognition (cek apakah ada file .h5 di train_results). Jalankan dulu proses training model untuk fruit recognition:
+##### 4\. Penggunaan Program
+Jika ingin menggunakan model ke dataset dengan kelas berbeda, bisa dilakukan training model dulu dengan:
 ```bash
 python train_fruit.py
 ```
