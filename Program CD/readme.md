@@ -32,7 +32,7 @@ Jika ingin menggunakan model ke dataset dengan kelas berbeda, bisa dilakukan tra
 ```bash
 python train_fruit.py
 ```
-Setelah model tersimpan, jalankan program dengan
+Jika tidak, langsung jalankan program dengan
 ```bash
 python gui.py
 ```
