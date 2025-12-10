@@ -1,5 +1,5 @@
 # Tugas Besar 3 IF4073 - Pemrosesan Citra Digital
-## Program C dan D
+## Program CD
 Program pengenalan buah, license plate, dan multiple human tracking menggunakan Deep Neural Network (DNN).
 
 #### How to run
@@ -28,7 +28,7 @@ pip install -r requirement.txt --no-cache-dir
 ```
 
 ##### 4\. Jalankan Program
-Jika belum ada model fruit recognition. Jalankan dulu proses training model untuk fruit recognition:
+Jika belum ada model fruit recognition (cek apakah ada file .h5 di train_results). Jalankan dulu proses training model untuk fruit recognition:
 ```bash
 python train_fruit.py
 ```
